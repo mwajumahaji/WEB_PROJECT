@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+    letter-spacing: 1px;
+}
+.login-container{
+    height: 100vh;
+    width: 100%;
+}
+.login-form{
+    max-width: 100%;
+    width: 340px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 20px;
+}
+.form-control{
+    font-size: 15px;
+    min-height: 30px;
+    font-weight: 500;
+}
+.form-control:focus{
+    border-color: gray;
+}
+.label-1{
+    /* float: left; */
+    margin-right: 250px;
+}
+.label-2{
+    margin-right: 220px;
+}
+.link{
+    text-decoration: none;
+}
+/* .main-form{
+    
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.form-group{
+    display:block;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+}
+.form-group:hover{
+    color: gray;
+    border: 2px solid gray;
+}
+.label{
+    position: relative; left: -120px;
+    justify-self: start;
+
+}
+h1{
+    margin-bottom: 50px;
+}
+button{
+    letter-spacing: 2px;
+} */

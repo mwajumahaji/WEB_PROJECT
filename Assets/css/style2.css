@@ -1,0 +1,28 @@
+.label{
+   margin-right: 200px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.form{
+    max-width: 100%;
+    width: 340px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+.form-control{
+    font-size: 15px;
+    min-height: 30px;
+    font-weight: 500;
+}
+.form-control:focus{
+    border-color: gray;
+}
+.col{
+    color: rgb(61, 61, 58);
+}
+.form-group{
+    border-radius: 80px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap.css">
+    <link rel="stylesheet" href="Assets/css/style2.css">
+</head>
+<body>
+     <!-- Heading ya project -->
+     <div class="container">
+        <!-- container ya wote -->
+        <h1 class="header text-center">PROJECT TRACKER</h1><hr>
+        <!-- row ya 1 yenye column 2 -->
+    <div class="row">
+        <div class="col-lg-4 col-md-8 col-12 text-center">
+            
+            <form class="form  text-center shadow ">
+                <h4>Submit New Project</h4> 
+
+                <div class="form-group mb-4">
+                    <label for="text" class="label">Student Name</label>
+                    <input class="form-control rounded-pill form-control-md shadow" type="text" placeholder="Student name">
+                </div>
+
+
+                <div class="form-group mb-4">
+                    <label for="text" class="label">Reg Number</label>
+                    <input class="form-control rounded-pill form-control-md shadow" type="text" placeholder="Project name">
+                </div>
+
+                <div class="form-group mb-4">
+                    <label for="text" class="label ">Accademic Year</label>
+                    <select name="year" class="form-control rounded-pill form-control-md shadow">
+                    <option value="year">2021/2022</option>
+                    <option value="year">2022/2023</option>
+                </div> 
+                
+            
+                <div class="form-group mb-4">
+                    <label for="text" class="label">Project Name</label>
+                    <input class="form-control rounded-pill form-control-sm shadow" type="text" placeholder="Project name">
+                </div>
+                
+                 <button type="submit" class=" mb-4 btn-secondary btn-block  mt-3 btn-lg rounded-pill"><strong>SUBMIT</strong></button>
+           </form>
+        </div>
+        
+          
+            <div class="col-lg-8 col-md-8 col-12 pr-2">
+                <!-- card -->
+                <div class="card rounded shadow p-2">
+                    <div class="text-center  ">
+                        <h3 class="card-text ">Project Detail</h3>
+                    </div>
+                </div>
+
+               <!-- row ya 2 yenye column 3 -->
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-8 col-sm-12 ">
+                         <!-- left card -->
+                        <div class="card bg-secondary">
+                            <div class="card text-center">
+                                <h3 class="card-text">START DATE</h3>
+                            </div>
+                        </div>
+                        <h4 class="header mt-2">Date : </h4>
+                    </div>
+                    <!-- center card -->
+                    <div class="col-lg-4 col-md-8 col-sm-12 ">
+                        <div class="card bg-secondary">
+                            <div class="card text-center">
+                                <h3 class="card-text">STATUS %</h3>
+                            </div>
+                        </div>
+                        <h4 class="header mt-2">Status :</h4>
+                    </div>
+                     <!-- right card -->
+                    <div class="col-lg-4 col-md-8 col-sm-12 ">
+                        <div class="card bg-secondary">
+                            <div class="card text-center">
+                                <h3 class="card-text">END DATE</h3>
+                            </div>
+                        </div>
+                        <h4 class="header mt-2">Date :</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-12 mt-4">
+                        <textarea name="comment"  cols="60" rows="15"></textarea>
+                        <input class="input p-2" type="text" placeholder="Enter The comment">
+                        <button type="submit" class="btn-secondary  btn-lg rounded-pill"><strong>SEND</strong></button>                    </div>
+                        <!-- <button></button> -->
+
+                    <div class="col-lg-4 col-md-4 col-12 mt-4 ">
+                        <div class="card rounded shadow p-2 mt-2 mb-2">
+                            <div class="text-center">
+                                <h4 class="card-text">Upload Your Detail</h4>
+                            </div>
+                        </div>
+                
+                    <div class="card rounded shadow p-2 text-center">
+                        <div class="upload">
+                            <img src="Assets/img/PDF-icon.png" style="width:30px"><br>
+                            <h6> PROJECT_PROPOSAL</h6>
+                        <input type="file" class="file mb-4">
+
+                            </div>
+                            <div class="upload mt-3">
+                                <img src="Assets/img/PDF-icon.png" style="width: 30px"><br>
+                            <h6>PROJECT_DESIGN</h6>
+                            <input type="file" class="file mb-4">
+                            </div>
+    
+                            <div class="upload mt-3">
+                                <img src="Assets/img/PDF-icon.png" style="width:30px"><br>
+                                <h6> FINAL_REPORT</h6>
+                            <input type="file" class="file mb-4">
+                            </div>
+                        </div>
+                  <!-- imefung column 2 ya row ya 1 -->
+                </div>
+    <!-- Imefunga row  ya 1 -->
+        </div>
+       
+<!-- imefunga container -->
+    </div>
+    
+   
+
+
+    
+</body>
+</html>
